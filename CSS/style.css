@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#list_main{
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.div_main{
+    border: 4px double red;
+}
+
+.child_div_main{
+    border: 0.5px solid rgb(10, 9, 9);
+    margin: 4px;
+    padding: 20px;
+}
